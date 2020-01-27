@@ -1084,6 +1084,10 @@ a
   width: 600px
   display: flex
   justify-content: space-between
+  margin-right: -24px
+  & p
+    width: 100px
+    text-align: center
 
 .cart__product
   &_block
@@ -1101,6 +1105,7 @@ a
   &_content
     width: 165px
     margin-left: 20px
+    padding-top: 13px
   &_img
     width: 100px
     height: 115px
@@ -1110,21 +1115,23 @@ a
     font-weight: 700
     text-transform: uppercase
     color: #222222
-    margin-bottom: 40px
+    margin-bottom: 25px
   &_text
     font-size: 13px
-    line-height: 20px
-    font-weight: 400
+    line-height: 25px
+    font-weight: 700
     color: #575757
     span
       font-size: 13px
-      line-height: 20px
       font-weight: 300
       color: #6f6e6e
   &_settings
-    margin-top: 40px
+    width: 600px
+    margin-right: -24px
     display: flex
-    margin-right: 20px
+    justify-content: space-between
+    align-items: center
+    text-align: center
     color: #656565
 
 .cart
@@ -1133,29 +1140,31 @@ a
     justify-content: space-between
     margin-bottom: 80px
   &__unite_price
-    margin-right: 100px
+    width: 100px
   &__quantity
-    margin-right: 80px
-    margin-top: -8px
+    margin: 0px 23px 0 23px
     height: 30px
     text-align: center
     width: 42px
-    height: 26px
     color: #656565
     font-size: 16px
     border: 1.0px solid #eaeaea
     border-radius: 3px
-    padding-top: 2px
     padding-left: 10px
     &::placeholder
       color: #656565
       font-size: 16px
   &__free
-    margin-right: 95px
+    width: 100px
   &__subtotal
-    margin-right: 100px
+    width: 100px
   &__action
+    width: 100px
     cursor: pointer
+    font-size: 14px
+    &:hover
+      color: $main-color
+      font-weight: 700
 
 .cart__quantity input[type="number"]
   padding-left: 15px
