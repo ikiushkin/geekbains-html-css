@@ -92,6 +92,7 @@ a
   & span
     color: $main-color
     font-weight: 900
+    font-size: 27px
   &__img
     margin-right: 13px
 
@@ -1103,7 +1104,6 @@ a
   &_img
     width: 100px
     height: 115px
-    background-image: url(img/cart_img/cart_product_img_1.jpg)
   &__h3
     font-size: 13px
     line-height: 1.2
@@ -1135,21 +1135,31 @@ a
   &__unite_price
     margin-right: 100px
   &__quantity
-    margin-right: 90px
-    width: 54px
+    margin-right: 80px
+    margin-top: -8px
     height: 30px
-    display: flex
-    justify-content: center
-    align-items: center
-    margin-top: -6px
-    background-color: #ffffff
-    outline: 1.0px solid #eaeaea
+    text-align: center
+    width: 42px
+    height: 26px
+    color: #656565
+    font-size: 16px
+    border: 1.0px solid #eaeaea
+    border-radius: 3px
+    padding-top: 2px
+    padding-left: 10px
+    &::placeholder
+      color: #656565
+      font-size: 16px
   &__free
     margin-right: 95px
   &__subtotal
     margin-right: 100px
   &__action
     cursor: pointer
+
+.cart__quantity input[type="number"]
+  padding-left: 15px
+  color: red
 
 .cart__buttons
   display: flex
@@ -1197,9 +1207,9 @@ a
       font-weight: 300
       color: #b1b1b1
   & input[type="text"]
-    padding-left: 15px
-    color: #222222
-    font-size: 16px
+      padding-left: 15px
+      color: #222222
+      font-size: 16px
   &_submit
     width: 100px
     height: 35px
