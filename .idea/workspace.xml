@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec627b8b-4244-47da-b8ac-c5b68fbd89ee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WsSegzkBQ0qHPlWTL2g7yKHFAW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.shoping_cart.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lesson 4_25.01.20_Homework/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="product_for_man.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lesson 4_25.01.20_Homework/product_for_man.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="shoping_cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lesson 4_25.01.20_Homework/shoping_cart.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.shoping_cart.html" />
+        <item itemvalue="JavaScript Debug.product_for_man.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec627b8b-4244-47da-b8ac-c5b68fbd89ee" name="Default Changelist" comment="" />
+      <created>1579939140580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579939140580</updated>
+      <workItem from="1579939153475" duration="707000" />
+      <workItem from="1580033733407" duration="28318000" />
+      <workItem from="1580107210011" duration="1064000" />
+      <workItem from="1580108294980" duration="644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="159" y="373" width="662" height="667" key="EditFileWatcherDialog" timestamp="1580107253624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="159" y="373" width="662" height="667" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1580107253624" />
+    <state x="212" y="543" width="726" height="627" key="EditFileWatcherDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1580036017979" />
+    <state x="268" y="455" key="FileChooserDialogImpl" timestamp="1580108361036">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="268" y="455" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1580108361036" />
+    <state x="357" y="613" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1580036016984" />
+    <state width="1235" height="97" key="GridCell.Tab.0.bottom" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.0.center" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.0.left" timestamp="1580064569706">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569706" />
+    <state width="1235" height="97" key="GridCell.Tab.0.right" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.1.bottom" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.1.center" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.1.left" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.1.right" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.2.bottom" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.2.center" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.2.left" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state width="1235" height="97" key="GridCell.Tab.2.right" timestamp="1580064569707">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="97" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1580064569707" />
+    <state x="298" y="191" width="1369" height="714" key="SettingsEditor" timestamp="1580108844364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="298" y="191" width="1369" height="714" key="SettingsEditor/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1580108844364" />
+    <state x="101" y="347" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1580036791750" />
+    <state x="427" y="167" width="742" height="804" key="find.popup" timestamp="1580042222058">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="427" y="167" width="742" height="804" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1580042222058" />
+    <state x="257" y="334" key="run.anything.popup" timestamp="1580036088054">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="257" y="334" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1580036088054" />
+    <state x="193" y="363" key="scopes" timestamp="1580036008247">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="193" y="363" key="scopes/0.0.2560.1400@0.0.2560.1400" timestamp="1580036008247" />
+  </component>
+</project>
