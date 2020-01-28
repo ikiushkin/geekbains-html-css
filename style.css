@@ -453,6 +453,9 @@ a {
   align-items: center;
   justify-content: center;
 }
+.item__footer :hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+}
 .item__block:hover .product__add {
   display: flex;
 }
@@ -467,6 +470,7 @@ a {
   font-weight: 700;
   letter-spacing: 0.025em;
   color: #ffffff;
+  border-radius: 3px;
 }
 .item__button span {
   padding-left: 7px;
@@ -557,6 +561,7 @@ a {
 
 .advantages {
   margin-top: 80px;
+  margin-bottom: 100px;
 }
 .advantages__img {
   display: inline-block;
@@ -600,6 +605,7 @@ a {
 }
 .advantages__block__img {
   float: left;
+  color: #f16d7f;
 }
 .advantages__text {
   float: left;
@@ -674,8 +680,9 @@ a {
   background-color: #d6d6d6;
   margin: 10px 5px;
 }
-.pagination__paige-active {
+.pagination__paige:hover {
   background-color: #f16d7f;
+  outline: 2px solid #f16d7f;
 }
 
 .subscribe__content {
@@ -1335,7 +1342,7 @@ a {
   width: 100px;
 }
 .cart__quantity {
-  margin: 0px 23px 0 23px;
+  margin: 0px 23px;
   height: 30px;
   text-align: center;
   width: 42px;
