@@ -234,7 +234,7 @@ a {
   padding: 20px;
   border: 1px solid #e6e6e6;
   display: none;
-  z-index: 1;
+  z-index: 2;
 }
 .drop_button {
   top: 37px;
@@ -885,6 +885,7 @@ a {
 
 .product__menu {
   position: absolute;
+  z-index: 1;
 }
 .product__menu .prod__menu_name {
   position: relative;
