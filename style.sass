@@ -201,7 +201,7 @@ a
   padding: 20px
   border: 1px solid #e6e6e6
   display: none
-  z-index: 1
+  z-index: 2
   &_button
     top: 37px
   &__last
@@ -383,6 +383,8 @@ a
     display: flex
     align-items: center
     justify-content: center
+    :hover
+      box-shadow: 0 5px 8px 0 rgba(0,0,0,0.50)
   &__block:hover .product__add
     display: flex
   &__button
@@ -396,6 +398,7 @@ a
     font-weight: 700
     letter-spacing: 0.025em
     color: #ffffff
+    border-radius: 3px
     & span
       padding-left: 7px
       font-size: 18px
@@ -474,6 +477,7 @@ a
 
 .advantages 
   margin-top: 80px
+  margin-bottom: 100px
   &__img
     display: inline-block
     float: left
@@ -510,6 +514,7 @@ a
     height: 100px
   &__block__img
     float: left
+    color: $main-color
   &__text
     float: left
     font-size: 20px
@@ -573,8 +578,9 @@ a
     height: 4px
     background-color: #d6d6d6
     margin: 10px 5px
-    &-active
+    &:hover
       background-color: $main-color
+      outline: 2px solid $main-color
 
 .subscribe
   &__content
@@ -746,6 +752,7 @@ a
 
 .product__menu
   position: absolute
+  z-index: 1
   .prod__menu_name
     position: relative
     font-size: 14px
@@ -1142,7 +1149,7 @@ a
   &__unite_price
     width: 100px
   &__quantity
-    margin: 0px 23px 0 23px
+    margin: 0px 23px
     height: 30px
     text-align: center
     width: 42px
