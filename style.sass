@@ -1,5 +1,32 @@
 $main-color: #f16d7f
 
+@-webkit-keyframes slide-bottom
+  0%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+  100%
+    -webkit-transform: translateY(-10px)
+    transform: translateY(-10px) scale(1.5) rotate(360deg)
+
+@keyframes scale-up-center
+  0%
+    -webkit-transform: scale(0.5)
+    transform: scale(0.5)
+  100%
+    -webkit-transform: scale(1.3)
+    transform: scale(1.3)
+
+@keyframes rotate-scale-up
+  0%
+    -webkit-transform: scale(1) rotateZ(0)
+    transform: scale(1) rotateZ(0)
+  50%
+    -webkit-transform: scale(2) rotateZ(180deg)
+    transform: scale(2) rotateZ(180deg)
+  100%
+    -webkit-transform: scale(1) rotateZ(360deg)
+    transform: scale(1) rotateZ(360deg)
+
 *
   margin: 0
   padding: 0
@@ -80,6 +107,9 @@ a
   &__cart
     margin-right: 26px
     cursor: pointer
+    transition: all 0.5s
+    &:hover
+      transform: scale(1.2)
 
 .logo
   display: flex
@@ -89,12 +119,18 @@ a
   text-transform: uppercase
   letter-spacing: 0.025em
   color: #222222
+  &:hover
+    -webkit-animation: rotate-scale-up 1s linear both
+    animation: rotate-scale-up 1s linear both
   & span
     color: $main-color
     font-weight: 900
     font-size: 27px
   &__img
     margin-right: 13px
+
+.logo__bottom
+  width: 168px
 
 .button 
   display: flex
@@ -105,12 +141,16 @@ a
   background-color: $main-color
   font-size: 15px
   font-weight: 400
+  border-radius: 3px
   letter-spacing: 0.025em
   color: #ffffff
+  transition: all 0.2s
+  &:hover
+    transform: scale(1.02)
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.15)
   & span
     font-size: 12px
     padding-left: 5px
-
 
 .cart
   &__summary::-webkit-details-marker
@@ -128,6 +168,11 @@ a
   &__block
     display: flex
     margin: 16px 0
+    transition: all 0.2s
+    &:hover
+      transform: scale(1.05)
+      outline: 1px solid #e6e6e6
+
   &__img
     width: 72px
     height: 85px
@@ -167,11 +212,12 @@ a
     color: #4a4a4a
     margin: 5px 0
     border-radius: 3px
+    transition: all 0.2s
     &:hover
+      transform: scale(1.03)
       border: 1.0px solid $main-color
       color: $main-color
       background-color: #fff
-
 
 .menu 
   display: flex
@@ -191,17 +237,23 @@ a
     &:hover
       background: $main-color
     &:hover .drop
-      display: flex
+      opacity: 1
+      visibility: visible
 
 .drop 
   top: 45px
+  display: flex
   position: absolute
   background-color: #ffffff
   border-radius: 5.0px
   padding: 20px
   border: 1px solid #e6e6e6
-  display: none
-  z-index: 1
+  opacity: 0
+  visibility: hidden
+  transition-property: opacity, visibility
+  transition-duration: 0.4s
+  transition-delay: 0.15s
+  z-index: 2
   &_button
     top: 37px
   &__last
@@ -228,6 +280,9 @@ a
     line-height: 28px
     font-weight: 400
     letter-spacing: 0.025em
+    transition: all 0.5s
+    &:hover
+      transform: scale(1.05) translateX(10px)
   &__link
     text-decoration: none
     color: #646464
@@ -360,9 +415,10 @@ a
     justify-content: space-between
     height: 350px
     flex-direction: column
-    cursor: pointer
+    transition: all 1s
     &:hover
       box-shadow: 0 5px 8px 0 rgba(0,0,0,0.15)
+      transform: scale(1.05)
     &:hover .item__img
       filter: brightness(50%)
   &__name
@@ -396,6 +452,11 @@ a
     font-weight: 700
     letter-spacing: 0.025em
     color: #ffffff
+    border-radius: 3px
+    transition: all 0.2s
+    &:hover
+      transform: scale(1.03)
+      box-shadow: 0 5px 8px 0 rgba(0,0,0,0.50)
     & span
       padding-left: 7px
       font-size: 18px
@@ -413,9 +474,10 @@ a
   display: none
   justify-content: center
   align-items: center
+  transition: all 0.2s
   &:hover
+    transform: scale(1.05)
     box-shadow: 0 0 10px #fff
-
 
 .men__paige_content
     width: 846px
@@ -438,16 +500,21 @@ a
   border: 1.0px solid #ebebeb
   border-radius: 3.0px
 
+.paiges__list
+  position: relative
+  &:hover
+    -webkit-animation: slide-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+    animation: slide-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
 .paiges__link
-    font-size: 16px
-    font-weight: 300
-    color: #c4c4c4
-    padding: 0 6px
-    &:hover
-      color: #ef5b70
-      font-size: 18px
-      font-weight: 700
-      box-shadow: 0 5px 8px 0 rgba(0,0,0,0.50)
+  font-size: 16px
+  font-weight: 300
+  color: #c4c4c4
+  padding: 0 6px
+  &:hover
+    color: #ef5b70
+    font-size: 18px
+    font-weight: 700
 
 .paiges__button
   width: 150px
@@ -459,7 +526,9 @@ a
   font-weight: 300
   color: #ef5b70
   cursor: pointer
+  transition: all 0.1s
   &:hover
+    transform: scale(1.03)
     background-color: #ef5b70
     color: #fff
     font-weight: 700
@@ -474,6 +543,7 @@ a
 
 .advantages 
   margin-top: 80px
+  margin-bottom: 100px
   &__img
     display: inline-block
     float: left
@@ -510,6 +580,7 @@ a
     height: 100px
   &__block__img
     float: left
+    color: $main-color
   &__text
     float: left
     font-size: 20px
@@ -573,8 +644,11 @@ a
     height: 4px
     background-color: #d6d6d6
     margin: 10px 5px
-    &-active
+    &:hover
+      -webkit-animation: scale-up-center 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+      animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
       background-color: $main-color
+      outline: 2px solid $main-color
 
 .subscribe
   &__content
@@ -600,7 +674,7 @@ a
     justify-content: center
     width: 400px
     & input[type="email"]
-      padding-left: 25px
+      padding: 0 15px 0 25px
       font-size: 18px
       color: #898989
   &__email
@@ -609,9 +683,12 @@ a
     background-color: #e1e1e1
     border-radius: 23px 0 0 23px
     border: none
+    transition: all 0.2s
     &:focus
+      transform: scale(1.02)
       box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50)
     &:hover
+      transform: scale(1.03)
       box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50)
     &::placeholder
       font-size: 14px
@@ -632,7 +709,9 @@ a
     cursor: pointer
     border: none
     text-transform: none
+    transition: all 0.2s
     &:hover
+      transform: scale(1.02)
       box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50)
 
 .information 
@@ -661,6 +740,9 @@ a
   &__li
     display: block
     margin-top: 23px
+    transition: all 0.2s
+    &:hover
+      transform: scale(1.05) translateX(5px)
   &__h1
     font-size: 18px
     line-height: 26px
@@ -674,7 +756,9 @@ a
     font-weight: 400
     letter-spacing: 0.025em
     color: #898989
+    transition: all 0.5s
     &:hover
+      transform: scale(1.05)
       color: $main-color
 
 .footer 
@@ -703,6 +787,7 @@ a
     width: 32px
     height: 26px
     padding-top: 6px
+    transition: all 1s
     &:hover
       background-color: $main-color
       color: #ffffff
@@ -746,6 +831,7 @@ a
 
 .product__menu
   position: absolute
+  z-index: 1
   .prod__menu_name
     position: relative
     font-size: 14px
@@ -1038,7 +1124,11 @@ a
   height: 55px
   background-color: #ffffff
   border: 1.0px solid #ef5b70
+  border-radius: 3px
   cursor: pointer
+  transition: all 0.2s
+  &:hover
+    transform: scale(1.02)
 
 .form__cart 
   display: block
@@ -1099,6 +1189,9 @@ a
     display: flex
     justify-content: space-between
     border-bottom: 1.0px solid #eaeaea
+    transition: all 0.5s
+    &:hover
+      transform: scale(1.02)
   &_descr
     display: flex
     width: 300px
@@ -1116,6 +1209,10 @@ a
     text-transform: uppercase
     color: #222222
     margin-bottom: 25px
+    transition: all 0.5s
+    &:hover
+      color: $main-color
+      transform: scale(1.05)
   &_text
     font-size: 13px
     line-height: 25px
@@ -1142,7 +1239,7 @@ a
   &__unite_price
     width: 100px
   &__quantity
-    margin: 0px 23px 0 23px
+    margin: 0 23px
     height: 30px
     text-align: center
     width: 42px
@@ -1162,13 +1259,13 @@ a
     width: 100px
     cursor: pointer
     font-size: 14px
+    transition: all 0.5s
     &:hover
       color: $main-color
       font-weight: 700
 
 .cart__quantity input[type="number"]
   padding-left: 15px
-  color: red
 
 .cart__buttons
   display: flex
@@ -1185,7 +1282,9 @@ a
     font-weight: 700
     text-transform: uppercase
     color: #4a4a4a
+    transition: all 0.2s
     &:hover
+      transform: scale(1.02)
       background-color: $main-color
       color: #fff
       font-weight: 700
@@ -1201,7 +1300,7 @@ a
     color: #222222
     margin-bottom: 10px
   &_input
-    width: 338px
+    width: 325px
     height: 45px
     background-color: #ffffff
     border: 1.0px solid #eaeaea
@@ -1210,13 +1309,13 @@ a
     font-size: 13px
     font-weight: 300
     color: #b1b1b1
-    padding-left: 15px
+    padding: 0 15px
     &::placeholder
       font-size: 13px
       font-weight: 300
       color: #b1b1b1
   & input[type="text"]
-      padding-left: 15px
+      padding: 0 15px
       color: #222222
       font-size: 16px
   &_submit
@@ -1231,7 +1330,9 @@ a
     text-transform: uppercase
     color: #4a4a4a
     border-radius: 3px
+    transition: all 0.2s
     &:hover
+      transform: scale(1.02)
       color: #ffffff
       background-color: $main-color
       box-shadow: 0 5px 8px 0 rgba(0,0,0,0.50)
@@ -1253,7 +1354,9 @@ a
     font-weight: 700
     text-transform: uppercase
     color: #4a4a4a
+    transition: all 0.2s
     &:hover
+      transform: scale(1.02)
       color: #ffffff
       background-color: $main-color
       box-shadow: 0 5px 8px 0 rgba(0,0,0,0.50)
@@ -1307,5 +1410,7 @@ a
     border: none
     border-radius: 3px
     margin-top: 17px
+    transition: all 0.2s
     &:hover
+      transform: scale(1.02)
       box-shadow: 0 5px 8px 0 rgba(0,0,0,0.50)
