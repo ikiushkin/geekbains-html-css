@@ -6,7 +6,7 @@
   }
   100% {
     -webkit-transform: translateY(-10px);
-    transform: translateY(-10px) scale(1.5) rotate(360deg);
+    transform: translateY(-5px) scale(1.5) rotate(360deg);
   }
 }
 @keyframes scale-up-center {
@@ -99,14 +99,14 @@ a {
   display: flex;
 }
 .header__input {
-  width: 317px;
+  width: 300px;
   height: 38px;
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
   border-radius: 0px 3px 3px 0px;
 }
 .header__form input[type=text] {
-  padding-left: 16px;
+  padding: 0 16px;
   font-size: 14px;
   color: #898989;
 }
@@ -173,10 +173,10 @@ a {
   border-radius: 3px;
   letter-spacing: 0.025em;
   color: #ffffff;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .button:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .button span {
@@ -201,7 +201,7 @@ a {
 .cart__block {
   display: flex;
   margin: 16px 0;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .cart__block:hover {
   transform: scale(1.05);
@@ -251,7 +251,7 @@ a {
   color: #4a4a4a;
   margin: 5px 0;
   border-radius: 3px;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .cart__checkout:hover {
   transform: scale(1.03);
@@ -538,7 +538,7 @@ a {
   letter-spacing: 0.025em;
   color: #ffffff;
   border-radius: 3px;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .item__button:hover {
   transform: scale(1.03);
@@ -562,7 +562,7 @@ a {
   display: none;
   justify-content: center;
   align-items: center;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .product__add:hover {
   transform: scale(1.05);
@@ -623,7 +623,7 @@ a {
   font-weight: 300;
   color: #ef5b70;
   cursor: pointer;
-  transition: all 0.1s;
+  transition: all 0.5s;
 }
 .paiges__button:hover {
   transform: scale(1.03);
@@ -807,7 +807,7 @@ a {
   background-color: #e1e1e1;
   border-radius: 23px 0 0 23px;
   border: none;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .subscribe__email:focus {
   transform: scale(1.02);
@@ -837,7 +837,7 @@ a {
   cursor: pointer;
   border: none;
   text-transform: none;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .subscribe__button:hover {
   transform: scale(1.02);
@@ -874,10 +874,10 @@ a {
 .info__li {
   display: block;
   margin-top: 23px;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .info__li:hover {
-  transform: scale(1.05) translateX(5px);
+  transform: scale(1.05) translateX(7px);
 }
 .info__h1 {
   font-size: 18px;
@@ -896,7 +896,6 @@ a {
   transition: all 0.5s;
 }
 .info__link:hover {
-  transform: scale(1.05);
   color: #f16d7f;
 }
 
@@ -932,6 +931,7 @@ a {
   transition: all 1s;
 }
 .social__links:hover {
+  transform: translateY(-15px) scale(1.1);
   background-color: #f16d7f;
   color: #ffffff;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
@@ -1010,6 +1010,10 @@ a {
 
 .prod__menu_link {
   list-style-type: none;
+  transition: all 0.5s;
+}
+.prod__menu_link:hover {
+  transform: scale(1.1) translateX(15px);
 }
 
 .prod__paragraph__name {
@@ -1319,7 +1323,7 @@ a {
   border: 1px solid #ef5b70;
   border-radius: 3px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .form__button:hover {
   transform: scale(1.02);
@@ -1505,7 +1509,7 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   color: #4a4a4a;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .cart__buttons_shopping:hover {
   transform: scale(1.02);
@@ -1560,7 +1564,7 @@ a {
   text-transform: uppercase;
   color: #4a4a4a;
   border-radius: 3px;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .cart__shipping_submit:hover {
   transform: scale(1.02);
@@ -1586,7 +1590,7 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   color: #4a4a4a;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .cart__discount_submit:hover {
   transform: scale(1.02);
@@ -1651,7 +1655,7 @@ a {
   border: none;
   border-radius: 3px;
   margin-top: 17px;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .cart__total_button:hover {
   transform: scale(1.02);
